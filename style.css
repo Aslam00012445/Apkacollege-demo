@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background: #ffffff;
+}
+
+.middle {
+  width: 80px;
+  background: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  width: 80px;
+  background: #ff6a2b;
+}
+
+.text {
+  transform: rotate(-90deg);
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.front {
+  color: #ff6a2b;
+  margin-right: 8px;
+}
+
+.nah {
+  color: #ffffff;
+}
